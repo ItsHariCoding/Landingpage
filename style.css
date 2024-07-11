@@ -1,0 +1,50 @@
+.first{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.onpic{
+    position:absolute;
+    top: 200px;
+    left: 200px;
+    width: 400px;
+    color: white;
+}
+button{
+    margin-left: 100px;
+    height: 40px;
+    width: 150px;
+    padding: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.product{
+    display: flex;
+    gap: 20px;
+    height: 200px;
+   justify-content: center;
+    margin-left: 20px;
+}
+.one{
+    background-image: url(pic2.jpg) ;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+.two{
+    background-image: url(pic3.jpg) ;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+.three{
+    background-image: url(pic4.jpg) ;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
